@@ -1,0 +1,24 @@
+.game-container {
+    text-align: center;
+}
+
+#board {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.cell {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.hidden {
+    background-color: #ccc;
+}
+
+.mine {
+    background-color: red;
+}

@@ -1,0 +1,12 @@
+ .container { display: flex; }
+ .tile { 
+ flex: 1;
+ background-color: #E8D8C4;
+ color: #561C24; 
+ text-align: center;
+ padding: 20px; 
+ text-decoration: none;
+ border: 2px solid #C7B7A3; 
+ transition: background-color 0.3s ease; 
+ } 
+ .tile:hover { background-color: #C7B7A3; }
